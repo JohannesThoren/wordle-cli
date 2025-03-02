@@ -1,0 +1,11 @@
+[package]
+name = "wordle"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "*", features = ["blocking", "json"] }
+serde_json = "*"
+serde = { version = "*", features = ["derive"] }
+anyhow = "1.0.96"
+color-print = "0.3.7"
