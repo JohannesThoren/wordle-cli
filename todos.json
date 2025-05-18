@@ -1,0 +1,1 @@
+[{"path":"./src/main.rs","todos":[{"description":"fix so that it counts the times a letter is used.","priority":"TBD","line":1},{"description":"make a better cli example print the used letters.","priority":"TBD","line":2}]}]

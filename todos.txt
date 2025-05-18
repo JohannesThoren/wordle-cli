@@ -1,0 +1,3 @@
+./src/main.rs
+	- l:1     TBD     fix so that it counts the times a letter is used. 
+	- l:2     TBD     make a better cli example print the used letters. 

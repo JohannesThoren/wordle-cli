@@ -1,7 +1,10 @@
+// todo : fix so that it counts the times a letter is used.
+// todo : make a better cli example print the used letters.
+
 mod guess;
 use color_print::cprint;
-use guess::Response;
 use core::time;
+use guess::Response;
 use std::io::{stdin, stdout, Read, Write};
 use std::thread::{self, sleep};
 
@@ -61,8 +64,7 @@ fn check_guess_response(response: &guess::Response) {
         None => {
             if !response.was_correct.unwrap() {
                 eprintln!("something went wrong!");
-            }
-            else {
+            } else {
                 for r in response.guess.chars() {
                     cprint!("<g>{}", r);
                     stdout().flush();
